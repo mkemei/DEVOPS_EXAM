@@ -23,4 +23,4 @@ sh "docker push mkemei/devopsexam:latest"
 stage('Apply changes to the environment') {
 sh "ls -l"
 }
-
+}
